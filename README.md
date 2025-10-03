@@ -1,16 +1,82 @@
-# React + Vite
+🌦 Mini Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite based Weather Application that fetches and displays real-time weather information like temperature, humidity, max/min values, and "feels like" temperature.  
+Users can search for any city to get updated weather details with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🌍 Search weather by city name  
+- 🌡 Shows current temperature, humidity, feels like info  
+- ☁ Displays current weather conditions (clouds, sunny, rain, etc.)  
+- 📱 Responsive UI using Material-UI components  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- [React.js](https://reactjs.org/)  
+- [Vite](https://vitejs.dev/)  
+- [Material-UI](https://mui.com/)  
+- [OpenWeatherMap API](https://openweathermap.org/api)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/palak68/mini-weather-app.git
+cd mini-weather-app
+
+2. Install dependencies
+
+npm install
+
+3. Add your API key
+
+Get a free API key from OpenWeatherMap
+
+Create a .env file in the root folder and add:
+
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+4. Run the app
+
+npm run dev
+
+Now open http://localhost:5173/ in your browser 🚀
+
+
+---
+
+📦 Build for Production
+
+npm run build
+
+
+---
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+
+---
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+---
+
+👩‍💻 Developed by Palak Sharma
+
+
+
+
+
+Chaho to main tumhe ek *short professional GitHub repo tagline* bhi suggest kar du (repo ke About section ke liye)?
